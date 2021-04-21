@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import Logo from '../assets/logo.svg'
-import './app.styles.scss'
+import React from 'react';
+import SideBar from './SideBar'
+import '../../app.styles.scss'
 
-class App extends Component {
-  render() {
+const App = () => {
+
     return (
       <div className='bg-main-bg flex flex-row'>
           <SideBar />
 
       </div>
     )
-  }
+
 }
 
 export default App
